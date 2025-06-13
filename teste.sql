@@ -39,3 +39,5 @@ INSERT INTO usuarios(nome, email, idade) VALUES(
 /*Editnado dados existente em uma Tabela*/
 UPDATE usuarios SET nome = "Gabriel" where id = 1;
 
+/*Deletando registro dentro da tabela*/
+DELETE FROM usuarios WHERE nome = 'Gabriel'

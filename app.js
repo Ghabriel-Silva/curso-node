@@ -4,6 +4,8 @@ res = tudo que você envia do servidor para o cliente.
 */
 const express = require("express") //Importação do Express:
 
+const sequelize = require('./models/db')
+
 const app = express(); 
 
 app.get("/", function (req, res) { // sempre que uso apenas o barra se refere a minha rota 
